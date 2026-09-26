@@ -1,0 +1,121 @@
+@font-face {
+    font-family: yekan;
+    src: url(BYekan+.ttf);
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #fff;
+    direction: rtl;
+    font-family: yekan;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    border-radius: 15px;
+    margin: 20px 20%;
+    padding: 0 20px;
+}
+
+nav button {
+    width: 100px;
+    height: 40px;
+    background-color: #00b994;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+nav img {
+    width: 100px;
+    height: 70px;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+header {
+    margin: 20px 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button {
+    background-color: #00b994;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    height: 50px;
+    width: 150px;
+}
+
+header img {
+    width: 500px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+.all-herfe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.herfe {
+    padding: 20px 50px;
+    background-color: #141414;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.herfe img {
+    width: 35px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.herfe button {
+    border: solid 1px #00b994;
+    border-radius: 10px;
+    color: #00b994;
+    background-color: #12201F;
+    height: 25px;
+    width: 100px;
+}
+
+.herfe2 {
+    gap: 15px;
+    margin: 50px;
+    padding: 20px;
+    background-color: #141414;
+    border-radius: 20px;
+    width: 1100px;
+    text-align: center;
+    align-items: center;
+}
+
+.herfe2 p {
+    color: #00b994;
+}
+
+footer {
+    gap: 15px;
+    margin: 50px;
+    padding: 20px;
+    background-color: #141414;
+    border-radius: 20px;
+    width: 500px;
+}
+
+footer p {
+    color: #00b994;
+}
